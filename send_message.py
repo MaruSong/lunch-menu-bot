@@ -1,5 +1,4 @@
 import zulip
-import pickle
 
 def send_message(menu):
 
