@@ -19,8 +19,9 @@ the zulip chat.
 ### Planned features
 1. Automating `request` part.
  - Until the implementation of the feature, I have to update `cookie.dat` regularly.
-1. Sending weekly menu once a week.
+2. Sending weekly menu once a week.
  - Currently, `lunch-menu-bot` send the lunch menu of the day to zulip every morning. 
  Sending a weekly menu once a week looks better, as the code would be simpler and people can find the weekly menu at once.
  - Or, this feature can be substitutied by enabling interactive-bot function (not sure if it is supported by zulip bots). 
  Then a zulip user type something in the chat so that `lunch-menu-bot` prints the weekly menu.
+3. Recognize ingredient pictures
