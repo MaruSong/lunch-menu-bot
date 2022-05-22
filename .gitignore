@@ -1,0 +1,7 @@
+logfile.log
+cookie.dat
+*pickle
+menu.pdf
+__pycache__
+.DS_Store
+zuliprc
