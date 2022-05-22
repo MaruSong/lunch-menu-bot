@@ -14,13 +14,6 @@ import zulip
 logging.basicConfig(filename = 'logfile.log', level=logging.DEBUG, format = '%(asctime)s - %(message)s')
 logging.info("\n")
 
-# Weekend exception
-my_date = datetime.date.today()
-dow = calendar.day_name[my_date.weekday()]
-if dow == "Sunday" or dow == "Saturday":
-    logging.info('No lunch on %s', dow)
-    exit()
-
 today = datetime.datetime.today()
 # to make h/m/s 0
 int_today = datetime.datetime.strptime('{}/{}/{}'.format(today.day, today.month, today.year),\
